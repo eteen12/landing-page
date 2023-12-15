@@ -83,10 +83,23 @@ button {
 .jatt-img-container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.jatt-img-container > div {
+    margin: 0;
 }
 
 .jatt-img {
+    padding:0;
     border-radius: 10px;
-    border:5px solid #FF8C00;
+    border: 5px solid #FF8C00;
+    margin-left:75px;
+}
+.paragrapgh{
+    padding:0;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+   
 }
 
