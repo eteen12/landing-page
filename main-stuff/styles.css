@@ -4,7 +4,9 @@ body{
 }
 section{
     background-color:#282828;
+    height:100vh;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -23,5 +25,12 @@ img{
    width:300px;
    height:300px;
    padding:100px;
+
+}
+h1{
+    text-align: right;
+    margin-right:470px;
+   margin-top: -375px;
+   font-family:fantasy;
 
 }
