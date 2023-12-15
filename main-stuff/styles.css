@@ -54,17 +54,23 @@ p{
     text-align: right;
     margin-right:250px;
 }
-.Pictures{
-    padding:0;
-    margin-top:0;
-    height:100vh;
-    background-color: pink;
-}
 button{
     border-radius:5px;
     font-weight:bolder;
     background-color:#FF8C00;
     font-family:fantasy;
     margin-left:925px;
-    margin-top:-50px !important;
+}
+.pics{
+    padding:0;
+    height:50vh;
+    background-color: white;
+    border-top:#FF8C00 10px solid;
+}
+.header-2{
+    display: flex;
+    justify-content:center;
+    padding:10px;
+    font-size:30px;
+    margin-top: 20px;
 }
