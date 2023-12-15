@@ -1,12 +1,13 @@
-body{
-    margin:0;
-    padding:0;
+body {
+    margin: 0;
+    padding: 0;
 }
-.home{
-    background-color:#282828;
-    height:100vh;
-    margin:0;
-    padding:0;
+
+.home {
+    background-color: #282828;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
@@ -14,64 +15,78 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction:row-reverse;
+    flex-direction: row-reverse;
 }
-nav a{
-    padding:20px;
+
+nav a {
+    padding: 20px;
     text-decoration: none;
-    color:white;
+    color: white;
 }
-nav{
-    padding:20px;
-    font-family:'Courier New', Courier, monospace;
-    font-size:20px;
-}
-img{
-    display: block;
-    margin:auto;
-   margin-left:175px;
-   width:400px;
-   padding:100px;
 
+nav {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
-h1{
-    font-weight:bold;
+
+.bhatti-img {
+    margin-left: 175px;
+    width: 400px;
+    padding: 100px;
+}
+
+h1 {
+    font-weight: bold;
     text-align: right;
-    margin-right:100px;
-   margin-top: -325px;
-   font-family:'Courier New', Courier, monospace;
-   color:white;
-   font-size:70px;
-   font-style: italic;
-   
-
-}
-p{
-    color:white;
+    margin-right: 100px;
+    margin-top: -325px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 70px;
     font-style: italic;
-    font-weight:bold;
+}
+
+p {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
     font-size: 35px;
     text-align: right;
-    margin-right:250px;
+    margin-right: 250px;
 }
-button{
-    border-radius:5px;
-    font-weight:bolder;
-    background-color:#FF8C00;
-    font-family:fantasy;
-    margin-left:925px;
+
+button {
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #FF8C00;
+    font-family: fantasy;
+    margin-left: 925px;
 }
-.pics{
-    padding:0;
-    height:50vh;
+
+.pics {
+    padding: 0;
+    height: 50vh;
     background-color: white;
-    border-top:#FF8C00 10px solid;
+    border-top: #FF8C00 10px solid;
 }
-.header-2{
+
+.header-2 {
     display: flex;
-    justify-content:center;
-    padding:10px;
-    font-size:30px;
+    justify-content: center;
+    padding: 10px;
+    font-size: 30px;
     margin-top: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.jatt-img-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.jatt-img {
+    border-radius: 10px;
+    border:5px solid #FF8C00;
+}
+
