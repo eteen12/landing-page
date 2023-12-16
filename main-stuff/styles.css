@@ -4,7 +4,7 @@ body {
 }
 .my-img {
     position: relative;
-    top: -600px; 
+    bottom: 600px;
     padding:0;
     width: 5%;
   }
@@ -72,10 +72,12 @@ button {
 }
 
 .pics {
-    padding: 0;
-    height: 50vh;
+    padding: 20px;
+    height: 65vh;
     background-color: white;
     border-top: #FF8C00 10px solid;
+    border-bottom:#FF8C00 10px solid;
+    margin-top:0;
 }
 
 .header-2 {
@@ -117,4 +119,45 @@ button {
     color:black;
     margin-right:60px;
 }
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height:40vh;
+    background-color: #282828;
+    margin-top:0;
+    width: 100%;
+    margin:0;
+}
+.funny{
+    text-align: center;
+    color:white;
+    font-style: italic;
+    font-size:40px;
+    
+}
+.kabir-hq{
+    color:white;
+    margin-left:900px;
+   
+    
+   
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+    background-color: white;
+    margin-top:0;
+    width: 100%;
+    margin:0;
+
+}
+
+
+
 
