@@ -163,10 +163,30 @@ button {
     display: block;
     background-color: #FF8C00;
     width:50%;
+    height:40%;
+    border-radius: 10px;
 }
 .spam{
     font-family:sans-serif;
-   
+    margin-left:30px;
+    margin-top: 25px;
+    font-weight:700;
+}
+.exclusive{
+    color:black;
+    font-family:sans-serif;
+    font-weight: 400;
+    margin-left:43px;
+    margin-top: -10px;
+}
+.woah{
+    position:absolute;
+    margin-left:375px;
+    width:15%;
+    height: 10%;
+    font-size: 25px;
+    margin-top:-75px;
+    
 }
 
 
