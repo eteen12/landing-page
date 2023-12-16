@@ -2,6 +2,12 @@ body {
     margin: 0;
     padding: 0;
 }
+.my-img {
+    position: relative;
+    top: -600px; 
+    padding:0;
+    width: 5%;
+  }
 
 .home {
     background-color: #282828;
@@ -31,7 +37,8 @@ nav {
 }
 
 .bhatti-img {
-    margin-left: 175px;
+    position: relative;
+    margin-left: 50px;
     width: 400px;
     padding: 100px;
 }
