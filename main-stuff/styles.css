@@ -86,7 +86,7 @@ button {
     padding: 10px;
     font-size: 30px;
     margin-top: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
 }
 
 .jatt-img-container {
@@ -136,16 +136,18 @@ button {
     color:white;
     font-style: italic;
     font-size:40px;
+    font-family: sans-serif;
     
 }
 .kabir-hq{
     color:white;
     margin-left:900px;
+    font-family: sans-serif;
    
     
    
 }
-.me{
+.bhattis{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,6 +158,15 @@ button {
     width: 100%;
     margin:0;
 
+}
+.h3-container{
+    display: block;
+    background-color: #FF8C00;
+    width:50%;
+}
+.spam{
+    font-family:sans-serif;
+   
 }
 
 
