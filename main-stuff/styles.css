@@ -191,22 +191,32 @@ button {
 }
 .me{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:40vh;
+    height:60vh;
     background-color: #282828;
     margin-top:0;
     width: 100%;
     margin:0;
     border-top: #FF8C00 10px solid;
+    padding:20px;
+    
 
 }
-.about-me{
-    color:white;
+.about {
+    color: white;
     font-size: 200px;
-    margin-right:800px;
+    margin-bottom: 20px;
+   margin-right:800px;
 }
+.img{
+   margin-right:100px;
+}
+
+
+
+
+
 
 
 
