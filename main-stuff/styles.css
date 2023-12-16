@@ -130,6 +130,7 @@ button {
     margin-top:0;
     width: 100%;
     margin:0;
+    border-bottom: #FF8C00 10px solid;
 }
 .funny{
     text-align: center;
@@ -187,6 +188,24 @@ button {
     font-size: 25px;
     margin-top:-75px;
     
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+    background-color: #282828;
+    margin-top:0;
+    width: 100%;
+    margin:0;
+    border-top: #FF8C00 10px solid;
+
+}
+.about-me{
+    color:white;
+    font-size: 200px;
+    margin-right:800px;
 }
 
 
